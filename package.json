@@ -8,6 +8,6 @@
     "url": "git+https://github.com/yudhatamaaditiyara/Fifit-Server-Https2.git"
   },
   "dependencies": {
-    "fifit-server-http2": "0.0.2"
+    "fifit-server-http2": "0.0.4"
   }
 }
