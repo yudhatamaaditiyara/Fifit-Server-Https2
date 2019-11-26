@@ -1,0 +1,19 @@
+{
+  "ui": "bdd",
+  "sort": true,
+  "bail": true,
+  "check-leaks": true,
+  "slow": 75,
+  "timeout": 2000,
+  "package": "package.json",
+  "reporter": "spec",
+  "require": [
+    "test/env.js"
+  ],
+  "recursive" : [
+    "test/src"
+  ],
+  "extension": [
+    "js"
+  ]
+}
