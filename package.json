@@ -21,5 +21,12 @@
   "scripts": {
     "test": "nyc mocha --config test/config.json",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "lib"
+  ]
 }
