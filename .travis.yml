@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "12.0"
+  - "13.0"
+cache:
+  directories:
+    - "node_modules"
+script:
+  - sudo env "PATH=$PATH" npm test
+after_success:
+  - sudo env "PATH=$PATH" npm run coverage
