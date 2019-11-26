@@ -9,5 +9,10 @@
   },
   "dependencies": {
     "fifit-server-http2": "0.0.4"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.7",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
   }
 }
