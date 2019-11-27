@@ -2,7 +2,7 @@
   "name": "fifit-server-https2",
   "description": "The Fifit Server Https2",
   "license": "Apache-2.0",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yudhatamaaditiyara/Fifit-Server-Https2.git"
