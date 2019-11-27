@@ -38,9 +38,9 @@ describe('Server', () => {
     assert.strictEqual(server.config.options.cert, config.server.options.cert);
   });
 
-  it('must be Server#resource instanceof http2.Http2Server', () => {
+  it('must be Server#resource != null', () => {
     let server = helper.createServer();
-    assert.ok(server.resource);
+    assert.ok(server.resource != null);
   });
 
   it('must be Server#isStarted === false', () => {
